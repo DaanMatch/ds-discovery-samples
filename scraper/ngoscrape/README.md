@@ -13,13 +13,13 @@ This is an  example  of a web scraper using the  `scrapy` python framework.
 * pandas
 
 
-###Usage
+### Usage
 
 Run the following:
 
 ```python
 cd ngoscrape
-scrapy crawl ngos -o ngo.json
+scrapy crawl ngos -o ngo.json ## "ngos" matches spiders/ngo_spider.py::NGOSpider.name 
 ```
 
 This  will run the python crawler(takes about 5-10 minutes to finish running) into a file called `ngo.json`, scraping ngo info at a state  level.
