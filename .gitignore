@@ -1,0 +1,4 @@
+ngo_list/data
+*.DS_Store
+*.pyc
+__pycache__
